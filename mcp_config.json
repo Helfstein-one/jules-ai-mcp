@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "jules-ai": {
+      "command": "node",
+      "args": ["/Users/mauriciohelfstein/dev/jules-ai-mcp/dist/index.js"],
+      "env": {
+        "JULES_API_KEY": "${JULES_API_KEY}",
+        "JULES_MOCK_MODE": "false"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "jules-ai-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) Server and Antigravity Skill for Google Jules AI",
+  "main": "dist/index.js",
+  "bin": {
+    "jules-ai-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "jules",
+    "jules-ai",
+    "gemini",
+    "antigravity",
+    "agentic-coding"
+  ],
+  "author": "Helfstein-one",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
